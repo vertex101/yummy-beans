@@ -7,6 +7,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 import vertex101.yummybeans.items.*;
 
+
 public class ModItems {
     @GameRegistry.ObjectHolder("yummybeans:blackbean")
     public static ItemBlackBean itemBlackBean;
@@ -24,14 +25,19 @@ public class ModItems {
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         itemBlackBean.initModel();
-        //itemBlueBean.initModel();
-        //itemGreenBean.initModel();
-        //itemPurpleBean.initModel();
-        //itemRedBean.initModel();
-       // itemYellowBean.initModel();
+        itemBlueBean.initModel();
+        itemGreenBean.initModel();
+        itemPurpleBean.initModel();
+        itemRedBean.initModel();
+        itemYellowBean.initModel();
     }
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.register(new ItemBlackBean());
+        registry.register(new ItemBlueBean());
+        registry.register(new ItemGreenBean());
+        registry.register(new ItemPurpleBean());
+        registry.register(new ItemRedBean());
+        registry.register(new ItemYellowBean());
     }
 }
