@@ -1,0 +1,10 @@
+#items
+item.yummybeans.blackbean.name=Black Bean
+item.yummybeans.bluebean.name=Blue Bean
+item.yummybeans.greenbean.name=Green Bean
+item.yummybeans.purplebean.name=Purple Bean
+item.yummybeans.redbean.name=Red Bean
+item.yummybeans.yellowbean.name=Yellow Bean
+
+#tab
+itemGroup.yummybeans=Yummy Beans
