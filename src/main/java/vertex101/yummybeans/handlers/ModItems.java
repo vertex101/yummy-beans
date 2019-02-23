@@ -21,6 +21,8 @@ public class ModItems {
     public static ItemRedBean itemRedBean;
     @GameRegistry.ObjectHolder("yummybeans:yellowbean")
     public static ItemYellowBean itemYellowBean;
+    @GameRegistry.ObjectHolder("yummybeans:beanjar")
+    public static ItemBeanJar itemBeanJar;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -30,6 +32,7 @@ public class ModItems {
         itemPurpleBean.initModel();
         itemRedBean.initModel();
         itemYellowBean.initModel();
+        itemBeanJar.initModel();
     }
 
     public static void register(IForgeRegistry<Item> registry) {
@@ -39,5 +42,6 @@ public class ModItems {
         registry.register(new ItemPurpleBean());
         registry.register(new ItemRedBean());
         registry.register(new ItemYellowBean());
+        registry.register(new ItemBeanJar());
     }
 }

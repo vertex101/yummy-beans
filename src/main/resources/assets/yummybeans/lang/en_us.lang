@@ -5,6 +5,7 @@ item.yummybeans.greenbean.name=Green Bean
 item.yummybeans.purplebean.name=Purple Bean
 item.yummybeans.redbean.name=Red Bean
 item.yummybeans.yellowbean.name=Yellow Bean
+item.yummybeans.beanjar.name=Bean Jar
 
 #tab
 itemGroup.yummybeans=Yummy Beans
