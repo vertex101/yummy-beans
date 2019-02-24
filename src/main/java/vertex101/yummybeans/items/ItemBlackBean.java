@@ -32,13 +32,13 @@ public class ItemBlackBean extends ItemFood {
     protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
         int chance = (int) (Math.random() * 100);
         if(!worldIn.isRemote) {
-            player.sendMessage(new TextComponentString("The chance on eat: " + chance));
             if(chance <= 20){
-
+                player.addPotionEffect(new PotionEffect(MobEffects.POISON, 60*20, 5, false, true));
             }else if(chance <= 40){
-
+                player.addPotionEffect(new PotionEffect(MobEffects.POISON, 60*20, 5, false, true));
             }else if(chance <= 60){
-
+                player.addPotionEffect(new PotionEffect(MobEffects.BLINDNESS, 60*20, 5, false, true));
+                player.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, 60*20, 5, false, true));
             }else if(chance <= 80){
                 player.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60*20, 5, false, true));
             }else if(chance <= 100){
