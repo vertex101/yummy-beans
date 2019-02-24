@@ -14,7 +14,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import vertex101.yummybeans.YummyBeans;
-import vertex101.yummybeans.handlers.ModItems;
+import vertex101.yummybeans.init.ModItems;
 
 public class ItemBeanJar extends Item {
     public ItemBeanJar() {

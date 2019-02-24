@@ -1,4 +1,4 @@
-package vertex101.yummybeans.handlers;
+package vertex101.yummybeans.init;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;

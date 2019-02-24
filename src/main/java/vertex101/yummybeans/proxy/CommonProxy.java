@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import vertex101.yummybeans.handlers.ModItems;
+import vertex101.yummybeans.init.ModItems;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
