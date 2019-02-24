@@ -6,6 +6,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 import vertex101.yummybeans.items.*;
+import vertex101.yummybeans.items.food.*;
 
 
 public class ModItems {
