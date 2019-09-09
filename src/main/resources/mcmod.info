@@ -2,7 +2,7 @@
 {
   "modid": "yummybeans",
   "name": "Yummy Beans",
-  "description": "Beans that give u weird effects when you eat them.",
+  "description": "Beans that give you weird effects when you eat them.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
